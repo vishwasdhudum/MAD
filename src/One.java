@@ -15,9 +15,7 @@ static WebDriver d;
 		//System.out.println(v.matches("(.*)wAs(.*)"));
 		System.out.println(v.matches("(?i:.*"+x+".*)"));
 		//v = v.substring(0,1).
-		Two.connectToGmail(d);
-		
-		
+		Two.connectToGmail(d);	
 	}
 
 }
